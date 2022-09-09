@@ -13,7 +13,7 @@ TextTheme textStyle = TextTheme(
   headline6: GoogleFonts.robotoMono(
       fontSize: 20, fontWeight: FontWeight.w500, letterSpacing: 0.15),
   subtitle1: GoogleFonts.robotoMono(
-      fontSize: 16, fontWeight: FontWeight.w400, letterSpacing: 0.15),
+      fontSize: 16, fontWeight: FontWeight.w400, letterSpacing: 0.15,color: kGreyColor),
   subtitle2: GoogleFonts.robotoMono(
       fontSize: 14,
       fontWeight: FontWeight.w500,
@@ -38,4 +38,5 @@ const kPrimaryColor = Color(0xFFF7A76C);
 const kSecondaryColor = Color(0xFFC3FF99);
 const kWhiteColor = Color(0xFFFEFBF6);
 const kRedColor = Color(0xFFEC7272);
-const kGreyColor = Color(0xFFCFD2CF);
+const kGreyColor = Color(0xFF73777B);
+const kYellowColor = Color(0xFFFFB200);
